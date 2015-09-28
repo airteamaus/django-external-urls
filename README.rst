@@ -33,9 +33,9 @@ Usage:
 
 2. Sends a Signal, ``external_link``::
 
-    from external_links.signals import external_link
+    from external_links.signals import external_click
     from django.dispatch import receiver
 
-    @receiver(external_link)
+    @receiver(external_click)
     def my_callback(sender, url, ip):
         print("tracked click to {} from {}".format(url, ip))
