@@ -5,7 +5,7 @@ Captures clicks on external links, and invokes a callback (signal).
 
 Useful for tracking outbound links.
 
-    pip install https://github.com/piran/django-external-urls
+    pip install django-external-urls
 
 
 Settings:
@@ -30,8 +30,8 @@ Usage:
 1. The templates can be used as follows::
 
     {% load external_urls %}
-    {% goto_url object.website %}
-    {% goto_url "http://example.com/" %}
+    {% external_url object.website %}
+    {% external_url "http://example.com/" %}
 
 2. Sends a Signal, ``external_link``::
 
