@@ -18,7 +18,7 @@ setup(
     author='Rich Atkinson, Piran Digital',
     author_email='rich@piran.com.au',
     url='https://github.com/piran/django-external-urls',
-    download_url='https://github.com/piran/django-external-urls/archive/0.1.zip',
+    download_url='https://github.com/piran/django-external-urls/archive/0.2.zip',
     license='BSD',
     packages=find_packages(),
     zip_safe=False,
