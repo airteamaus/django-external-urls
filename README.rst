@@ -1,7 +1,9 @@
-django-external urls
+django-external-urls
 ========================
 
-Capture clicks on external links via a signal
+Captures clicks on external links, and invokes a callback (signal).
+
+Useful for tracking outbound links.
 
     pip install https://github.com/piran/django-external-urls
 
