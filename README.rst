@@ -1,4 +1,4 @@
-django-goto-url
+django-external urls
 ========================
 
 Capture clicks on external links via a signal
