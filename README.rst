@@ -17,11 +17,11 @@ Add to ``settings.py``::
         'external_urls',
     )
 
-Add to ``url.py``::
+Add to ``urls.py``::
 
-    urlpatterns = patterns('',
+    urlpatterns = [
         url(r'', include('external_urls.urls')),
-    )
+    ]
 
 
 Usage:
