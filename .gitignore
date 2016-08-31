@@ -1,0 +1,7 @@
+*.orig
+*.pyc
+*~
+.coverage
+.cache
+.tox/
+django_external_urls.egg-info/
