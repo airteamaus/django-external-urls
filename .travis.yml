@@ -14,4 +14,4 @@ install: 'pip install --quiet tox-travis python-coveralls'
 script: tox
 
 after_script:
-    coveralls
+    - coveralls
