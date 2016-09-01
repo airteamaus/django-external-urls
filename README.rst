@@ -1,6 +1,15 @@
 django-external-urls
 ========================
 
+.. _badges:
+
+.. image:: https://travis-ci.org/sv0/django-external-urls.svg?branch=master
+    :target: https://travis-ci.org/sv0/django-external-urls
+
+.. image:: https://coveralls.io/repos/github/sv0/django-external-urls/badge.svg?branch=master
+    :target: https://coveralls.io/github/sv0/django-external-urls?branch=master
+
+
 Captures clicks on external links, and invokes a callback (signal).
 
 Useful for tracking outbound links.
