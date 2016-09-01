@@ -9,7 +9,7 @@ branches:
     only:
     - master
 
-install: 'pip install --quiet --use-mirrors tox-travis python-coveralls'
+install: 'pip install --quiet tox-travis python-coveralls'
 
 script: tox
 
