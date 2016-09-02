@@ -1,31 +1,54 @@
 django-external-urls
-========================
+####################
+
+.. _badges:
+
+.. image:: https://travis-ci.org/sv0/django-external-urls.svg?branch=master
+    :target: https://travis-ci.org/sv0/django-external-urls
+
+.. image:: https://coveralls.io/repos/github/sv0/django-external-urls/badge.svg?branch=master
+    :target: https://coveralls.io/github/sv0/django-external-urls?branch=master
+
 
 Captures clicks on external links, and invokes a callback (signal).
 
 Useful for tracking outbound links.
 
+
+.. _requirements:
+
+Requirements
+============
+
+- python >= 2.7
+- django >= 1.8
+
+
+.. _installation:
+
+Installation
+============
+
     pip install django-external-urls
 
 
-Settings:
-------------------------
+Setup
+=====
 
-Add to ``settings.py``::
+- Add 'external_urls' to INSTALLED_APPS ::
 
-    INSTALLED_APPS = (
-        'external_urls',
-    )
+    INSTALLED_APPS += ( 'external_urls', )
 
-Add to ``url.py``::
 
-    urlpatterns = patterns('',
+- Add external_urls to root urls ::
+
+    urlpatterns = [
         url(r'', include('external_urls.urls')),
-    )
+    ]
 
 
-Usage:
-------------------------
+Usage
+=====
 
 1. The templates can be used as follows::
 
